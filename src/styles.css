@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.chat {
+  height: 600px;
+  background: #0d1418;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 10px 25px;
+  max-width: 50%;
+  border-radius: 20px;
+  display: inline-flex;
+  text-align: left;
+  color: #ffffff;
+}
+
+.message--out {
+  margin-left: auto;
+  background-color: #146162;
+}
+
+.message--in {
+  margin-right: auto;
+  background-color: #262d31;
+}
